@@ -37,12 +37,15 @@ body{
 @keyframes rotate {
     from {
         transform: rotate(0deg);
+        /* transform: scale(0); */
     }
 
     to {
         transform: rotate(360deg);
+        /* transform: scale(1.5); */
     }
 }
+
 
 h1{
     padding: 20px 40px;
